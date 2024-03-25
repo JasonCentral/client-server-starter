@@ -1,7 +1,7 @@
 import http from "http";
 import dotenv from "dotenv";
 
-dotenv.config({ path: ["./config.env", "./config.local.env"] });
+dotenv.config({ path: ["./config.env", "./config.env.local"] });
 
 const server = http.createServer((req, res) => {
   res.end("Connected");

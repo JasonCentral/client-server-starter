@@ -24,4 +24,4 @@ vscode
 .DS_Store
 
 # misc
-*.local.env
+*.env.local
